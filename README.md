@@ -1,2 +1,0 @@
-# Vehicle-Detection
-I created a model using MobileNetV2 neural network and using Single Shot MultiBox Detector(SSD) algorithm, to detect various labels like Vehicles, humans, background, etc in the images, which could be extended to include more labels like cars, bikes, trucks, buses, etc. The cityscapes dataset was used with 20k images and the model found multiple boxes detecting vehicles, which were then reduced using NMS (Non-Maximum Suppression) to find the final results. Technological Stack: Python, PyTorch
